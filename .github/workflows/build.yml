@@ -3,7 +3,7 @@ name: Build Project
 # 当 main 分支有推送时触发构建
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:  # 允许手动运行
 
 jobs:
